@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - PassX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li><a href="index.html">Password Manager</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><button onclick="logout()" class="btnsm">Logout</button></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="title">Contact Us</h1>
+        <p class="description">
+            Got questions? We’re here to help! Reach out to us at:
+        </p>
+        <ul>
+            <li>Email: support@passx.com</li>
+            <li>Phone: +123 456 7890</li>
+            <li>Address: 123 Secure Lane, WebCity, Internet</li>
+        </ul>
+    </div>
+
+    <script>
+        function logout() {
+            localStorage.removeItem('isLoggedIn');
+            window.location.href = '/';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="lock.css">
+</head>
+<body>
+    <div class="lock-screen">
+        <h1 class="lock-title">Enter Password</h1>
+        <form id="lock-form" class="lock-form">
+            <!-- Username input -->
+            <input
+                type="text"
+                id="username"
+                class="lock-input"
+                placeholder="Username"
+                required
+            >
+            <!-- Password input -->
+            <input
+                type="password"
+                id="password"
+                class="lock-input"
+                placeholder="Password"
+                required
+            >
+            <!-- Login button -->
+            <button type="submit" class="lock-button">Login</button>
+        </form>
+        <!-- Register button -->
+        <button onclick="redirectToRegister()" class="register-button">Register</button>
+    </div>
+    <script src="lock.js"></script>
+    <script>
+        // Function to redirect to the registration page
+        function redirectToRegister() {
+            window.location.href = '/register';
+        }
+    </script>
+</body>
+</html>

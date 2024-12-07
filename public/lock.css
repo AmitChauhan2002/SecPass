@@ -1,0 +1,84 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6fc; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the lock screen */
+.lock-screen {
+    background-color: #ffffff; /* White card */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Heading styling */
+.lock-screen h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form input fields styling */
+.lock-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Login button styling */
+.lock-button {
+    width: 100%;
+    background-color: #6c63ff;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.lock-button:hover {
+    background-color: #574edf;
+}
+
+/* Add responsiveness */
+@media (max-width: 400px) {
+    .lock-screen {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+.register-button {
+    width: 100%;
+    background-color: #6c63ff;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #574edf;
+}

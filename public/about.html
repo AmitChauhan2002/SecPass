@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - PassX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li><a href="index.html">Password Manager</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button onclick="logout()" class="btnsm">Logout</button></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 class="title">About PassX</h1>
+        <p class="description">
+            PassX is your go-to solution for managing and securing your passwords effortlessly. Built with modern
+            technologies and a focus on user experience, PassX ensures that your sensitive information is both
+            accessible and safe.
+        </p>
+        <p>
+            This platform is designed to simplify your digital life, enabling you to generate strong passwords,
+            evaluate password strength, and store your credentials securely.
+        </p>
+    </div>
+
+    <script>
+        function logout() {
+            localStorage.removeItem('isLoggedIn');
+            window.location.href = '/';
+        }
+    </script>
+</body>
+
+</html>
