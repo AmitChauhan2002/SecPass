@@ -33,10 +33,13 @@ SecPass is a robust and user-friendly password manager designed to simplify and 
   ![image](https://github.com/user-attachments/assets/a43d0440-30ae-4e1d-892c-47ebc8da95f4)
 
 3. Than Open password manager
-    ![image](https://github.com/user-attachments/assets/d67db03a-d7fc-4891-9c02-53ab50a08eb5)
+  ![image](https://github.com/user-attachments/assets/d67db03a-d7fc-4891-9c02-53ab50a08eb5)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/sum1tchauhan/SecPass.git
+
+## Usage
+  Use "npm run" to start
